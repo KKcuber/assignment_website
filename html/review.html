@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kushagra Kharbanda</title>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+	<link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+	<div id="navbar">
+			<a id="item1" onmouseover="change1()" onmouseout="changeback1()" href="index.html">Home</a>
+			<a id="item2" onmouseover="change2()" onmouseout="changeback2()" href="about.html">About my coolness</a>
+			<a id="item3" onmouseover="change3()" onmouseout="changeback3()" href="review.html">Review</a>
+			<a id="item4" onmouseover="change4()" onmouseout="changeback4()" href="contact.html">Contact</a>	 
+	</div>
+	<br><br><br>
+	<form id="myform">
+		NAME : <input type="text" name="name" value=" "><br><br>
+		&nbsp;SKILL : <input type="text" name="skill" value=" "><br><br>
+		&nbsp;LEVEL : 
+		<select name="level">
+		   <option value="Proficient">Proficient</option>
+		   <option value="Beginner">Beginner</option>
+		   <option value="Intermediate">Intermediate</option>
+		</select>
+		<br><br>
+	 </form>
+	 <button style="margin-left: 5%;" onclick="append()">Done!</button>
+	 <br><br>
+	 <table id="tableid" border="solid" align="center">
+		<tbody><tr>
+		   <th>Name</th>
+		   <th>Skill</th>
+		   <th>Level</th>
+		</tr>
+	 </tbody></table>
+	<script src="../js/script.js"></script>
+</body>
+</html>
